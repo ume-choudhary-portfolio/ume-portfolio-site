@@ -1,30 +1,45 @@
-# Ume Choudhary — Reference-Matched Portfolio
+# Ume Choudhary — Poster-Style Advanced Portfolio
 
-This build is designed to closely match the supplied reference screenshot:
-- dark navy full-width hero
-- large three-line headline
-- compact laptop + floating HR/AI cards
-- quote strip
-- CTA buttons and expertise pills
-- five-column impact strip
-- two-column About section immediately below
-- richer skills, AI, experience and interactive case-study/demo pages further down
+This build is intentionally much closer to the approved poster aesthetic:
+- richer neon visual assets
+- dense dashboard-like layout
+- poster-style hero illustration
+- animated metric counters
+- skill filters
+- expanding service cards
+- hover/tilt interactions
+- interactive HR case-lifecycle demo
+- illustrative AI employee self-service demo
+- global transformation explorer
+- detailed case studies
+- expandable experience timeline
+- latest CV included
 
-## Upload to GitHub
-1. Extract the ZIP.
-2. Open your `ume-portfolio-site` repository.
+## GitHub upload
+1. Download and extract the ZIP.
+2. Open the `ume-portfolio-site` GitHub repository.
 3. Upload the **contents** of the extracted folder to the repository root.
-4. Replace the existing files.
+4. Replace the previous `index.html`, `styles.css`, `script.js`, PDF and `assets` folder.
 5. Commit changes.
 6. Open Vercel → `ume-portfolio-site` → Deployments.
-7. Wait until the latest deployment is **Ready**.
-8. Hard-refresh the live website with Ctrl+F5.
+7. Wait for the newest deployment to show **Ready**.
+8. Hard refresh the live site with `Ctrl + F5`.
 
-## Root files
-- index.html
-- styles.css
-- script.js
-- case-studies.html
-- demos.html
-- Ume_Choudhary_Resume.pdf
-- assets/favicon.svg
+## Root structure
+- `index.html`
+- `styles.css`
+- `script.js`
+- `Ume_Choudhary_Resume.pdf`
+- `README.md`
+- `assets/`
+  - `favicon.svg`
+  - `hero-tech.jpg`
+  - `case-management.jpg`
+  - `ai-self-service.jpg`
+  - `global-transformation.jpg`
+  - `globe-detail.jpg`
+  - `design-reference.jpg`
+
+## Content integrity
+The public experience, metrics, modules, platforms and certifications are grounded in the supplied CV.
+The AI demo is explicitly labelled as an illustrative capability concept rather than a claimed production implementation.
