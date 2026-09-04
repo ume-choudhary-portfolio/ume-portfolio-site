@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Demos | Ume Choudhary</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">UC</span><span><strong>Ume Choudhary</strong><small>Interactive Demos</small></span></a>
+  <nav class="nav static-nav"><a href="index.html">Home</a><a href="case-studies.html">Case Studies</a><a class="btn btn-small" href="Ume_Choudhary_Resume.pdf" target="_blank">View CV</a></nav>
+</header>
+<main class="inner-page">
+  <section class="page-hero shell">
+    <div class="section-kicker">LIVE DEMOS & WALKTHROUGHS</div>
+    <h1>Short, practical simulations — no client data, no fake production screenshots.</h1>
+    <p>These interactive examples use synthetic data to demonstrate the thinking behind HR service delivery, conversational intake and global transformation governance.</p>
+  </section>
+
+  <section id="case-demo" class="demo-section shell">
+    <div class="demo-copy"><div class="section-kicker">DEMO 01</div><h2>Employee Case Management</h2>
+      <p>Walk through a simplified HRSD case lifecycle: intake, categorisation, routing, SLA monitoring and resolution.</p>
+      <p class="disclaimer">Illustrative portfolio simulation; not a client ServiceNow instance.</p>
+    </div>
+    <div class="demo-console">
+      <div class="console-top"><span class="live-dot"></span> HR Case Lifecycle Simulator <span id="caseStepLabel">Step 1 of 5</span></div>
+      <div class="case-steps" id="caseSteps">
+        <button class="active" data-step="0">1 · Intake</button><button data-step="1">2 · Categorise</button><button data-step="2">3 · Route</button><button data-step="3">4 · Track SLA</button><button data-step="4">5 · Resolve</button>
+      </div>
+      <div class="case-screen">
+        <div><small>Employee request</small><h3 id="caseTitle">Payroll query received</h3><p id="caseText">The employee submits a payroll query through the service portal. Required information is captured at source to avoid follow-up.</p></div>
+        <div class="case-status"><span id="caseBadge">NEW</span><strong id="caseMetric">Complete intake</strong></div>
+      </div>
+      <div class="demo-controls"><button class="btn" id="prevCase">← Previous</button><button class="btn primary" id="nextCase">Next step →</button></div>
+    </div>
+  </section>
+
+  <section id="ai-demo" class="demo-section shell">
+    <div class="demo-copy"><div class="section-kicker">DEMO 02</div><h2>AI in HR: Employee Self-Service</h2>
+      <p>Choose a sample employee question and see how a knowledge-grounded service-assistant pattern could guide the employee before a case is raised.</p>
+      <p class="disclaimer">Illustrative capability concept only; it is not presented as a production AI implementation.</p>
+    </div>
+    <div class="demo-console ai-console">
+      <div class="console-top"><span class="live-dot"></span> Employee Service Assistant</div>
+      <div class="question-row">
+        <button data-q="leave">Leave policy</button><button data-q="onboarding">Onboarding status</button><button data-q="payroll">Payroll query</button>
+      </div>
+      <div class="chat">
+        <div class="bubble employee" id="employeeQuestion">How do I find the leave policy for my location?</div>
+        <div class="bubble bot" id="botAnswer">I can guide you to the approved policy for your location. First I would identify your country/entity, then surface the relevant knowledge article and only offer case creation if the answer does not resolve your question.</div>
+      </div>
+      <div class="ai-actions"><span>Grounded knowledge</span><span>Deflection opportunity</span><span>Escalate when needed</span></div>
+    </div>
+  </section>
+
+  <section id="global-demo" class="demo-section shell">
+    <div class="demo-copy"><div class="section-kicker">DEMO 03</div><h2>Global HR Transformation Explorer</h2>
+      <p>Explore the delivery footprint of a programme spanning 70+ countries, 5+ workstreams and 10+ integrations.</p>
+    </div>
+    <div class="demo-console">
+      <div class="console-top"><span class="live-dot"></span> Global Programme View</div>
+      <div class="region-grid">
+        <button class="region active" data-region="emea"><strong>EMEA</strong><span>Multi-country HR service design</span></button>
+        <button class="region" data-region="na"><strong>North America</strong><span>Cross-functional stakeholder alignment</span></button>
+        <button class="region" data-region="latam"><strong>LATAM</strong><span>Process standardisation & readiness</span></button>
+        <button class="region" data-region="apac"><strong>APAC</strong><span>Global-local operating considerations</span></button>
+      </div>
+      <div class="region-detail" id="regionDetail">
+        <div><small>Focus</small><h3>Scalable service design</h3></div>
+        <div><small>Programme mechanisms</small><p>Discovery workshops, requirement validation, governance, Workday dependency coordination, readiness and stakeholder decision support.</p></div>
+      </div>
+      <div class="global-metrics"><div><b>70+</b><span>countries</span></div><div><b>5+</b><span>workstreams</span></div><div><b>10+</b><span>integrations</span></div></div>
+    </div>
+  </section>
+</main>
+<footer class="shell">© 2026 Ume Choudhary · Portfolio</footer>
+<script src="script.js"></script>
+</body>
+</html>
