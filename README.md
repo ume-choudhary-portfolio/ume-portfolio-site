@@ -1,27 +1,30 @@
-# Ume Choudhary — Portfolio
+# Ume Choudhary — Reference-Matched Portfolio
 
-Deployment-ready static portfolio for GitHub + Vercel.
+This build is designed to closely match the supplied reference screenshot:
+- dark navy full-width hero
+- large three-line headline
+- compact laptop + floating HR/AI cards
+- quote strip
+- CTA buttons and expertise pills
+- five-column impact strip
+- two-column About section immediately below
+- richer skills, AI, experience and interactive case-study/demo pages further down
 
-## Upload
-1. Extract this ZIP.
-2. In GitHub, open the `ume-portfolio-site` repository.
-3. Upload **the contents of this folder** to the repository root.
-4. Replace existing files when prompted.
+## Upload to GitHub
+1. Extract the ZIP.
+2. Open your `ume-portfolio-site` repository.
+3. Upload the **contents** of the extracted folder to the repository root.
+4. Replace the existing files.
 5. Commit changes.
-6. Vercel should redeploy automatically.
-7. Wait for the newest deployment to show **Ready**.
+6. Open Vercel → `ume-portfolio-site` → Deployments.
+7. Wait until the latest deployment is **Ready**.
+8. Hard-refresh the live website with Ctrl+F5.
 
-## Required root structure
-- `index.html`
-- `case-studies.html`
-- `demos.html`
-- `styles.css`
-- `script.js`
-- `Ume_Choudhary_Resume.pdf`
-- `assets/favicon.svg`
-
-## Notes
-- The site intentionally contains **no human photo**.
-- Interactive demos use synthetic/illustrative data and are labelled as simulations.
-- The content is grounded in the supplied CV.
-- Specific tools not evidenced in the supplied CV (for example Power BI, Jira, Confluence, AWS and Copilot) were not presented as established experience.
+## Root files
+- index.html
+- styles.css
+- script.js
+- case-studies.html
+- demos.html
+- Ume_Choudhary_Resume.pdf
+- assets/favicon.svg
