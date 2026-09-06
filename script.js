@@ -38,3 +38,35 @@ function setPowerbiTab(name){
   if(img){img.src=d.image;img.alt=d.alt;}
 }
 document.querySelectorAll('[data-powerbi-tab]').forEach(b=>b.addEventListener('click',()=>setPowerbiTab(b.dataset.powerbiTab)));
+
+// Dark Power BI credential view toggle (no image dependency)
+const powerbiDarkData={
+  income:{
+    title:'Financial Statements in Power BI',
+    text:'A general ledger model turned into a working income statement and balance sheet. Built on a star schema with finance DAX measures for current ratio, debt ratio, gross and operating margin, plus a waterfall from revenue to net income.',
+    top:'Income Statement',
+    kpis:[['0.21','Gross margin'],['0.05','Operating margin'],['6/1/2021','Last refresh']]
+  },
+  balance:{
+    title:'Financial Statements in Power BI',
+    text:'The same capstone model also supports a structured balance sheet view, using dimensional modelling and finance measures to organise assets, liabilities and equity into an executive friendly reporting layout.',
+    top:'Balance Sheet',
+    kpis:[['1.84','Current ratio'],['0.42','Debt ratio'],['$29.6M','Total assets']]
+  }
+};
+document.querySelectorAll('[data-powerbi-dark]').forEach(btn=>btn.addEventListener('click',()=>{
+  document.querySelectorAll('[data-powerbi-dark]').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const d=powerbiDarkData[btn.dataset.powerbiDark];
+  const title=document.getElementById('powerbiDarkTitle');
+  const text=document.getElementById('powerbiDarkText');
+  const mock=document.getElementById('financialMock');
+  if(title)title.textContent=d.title;
+  if(text)text.textContent=d.text;
+  if(mock){
+    const top=mock.querySelector('.mock-topbar b');
+    if(top)top.textContent=d.top;
+    const spans=mock.querySelectorAll('.mock-kpis span');
+    d.kpis.forEach((k,i)=>{if(spans[i])spans[i].innerHTML='<b>'+k[0]+'</b>'+k[1];});
+  }
+}));

@@ -19,3 +19,10 @@ This package includes the full portfolio plus the new Dashboard & KPI Reporting 
 5. Commit changes.
 6. Wait for the newest Vercel deployment to show Ready.
 7. Hard refresh the site with Ctrl+F5.
+
+
+Dashboard page update:
+- dashboard-kpi-reporting.html now uses the same dark portfolio theme.
+- No dashboard images are required on that page, so there are no broken Power BI image dependencies.
+- Five dashboard examples are explained in detail.
+- The hero stat uses 5 Dashboard Examples rather than an unverified 15+ dashboards claim.
