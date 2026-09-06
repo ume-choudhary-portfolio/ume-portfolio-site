@@ -1,27 +1,21 @@
-# Ume Choudhary Portfolio — AI & Case Study Pages
+# Ume Choudhary Portfolio, Dashboard and KPI Update
 
-Upload the entire contents of this folder to the root of your GitHub `ume-portfolio-site` repository.
+This package includes the full portfolio plus the new Dashboard & KPI Reporting content.
 
-## Files
-- index.html
-- global-hr-transformation.html
-- ai-rewards-agent.html
-- ai-global-mobility-agent.html
-- ai-payroll-agent.html
-- ai-case-summarisation.html
-- moveworks-phase-2.html
-- interactive-demos.html
-- styles.css
-- script.js
-- Ume_Choudhary_Resume.pdf
-- PORTFOLIO_REVIEW_NOTES.md
-- assets/
+## New in this version
+- Removed the 5+ member delivery-team claim
+- Added project and delivery health dashboard experience
+- Added dashboard and KPI reporting section to the homepage
+- Added a dedicated `dashboard-kpi-reporting.html` page
+- Added Jira, Confluence and Agile delivery detail
+- Removed em dash and en dash punctuation from public pages
+- Included all visual assets so GitHub/Vercel does not rely on missing images
 
-## Deploy
+## Upload
 1. Extract the ZIP.
-2. In GitHub, open `ume-portfolio-site`.
-3. Upload all files and the `assets` folder to the repository root.
-4. Replace older files if prompted.
+2. Open the GitHub repository `ume-portfolio-site`.
+3. Upload every file and the entire `assets` folder to the repository root.
+4. Replace existing files when prompted.
 5. Commit changes.
-6. Wait for Vercel to show the latest deployment as Ready.
-7. Hard refresh the live portfolio with Ctrl+F5.
+6. Wait for the newest Vercel deployment to show Ready.
+7. Hard refresh the site with Ctrl+F5.

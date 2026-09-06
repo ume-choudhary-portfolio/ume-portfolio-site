@@ -1,28 +1,8 @@
 # Portfolio review notes
 
-## Safe to present as delivered / CV-backed
-- 8+ years experience
-- 10+ end-to-end transformations
-- 70+ country global programme
-- 10+ integrations
-- 5+ workstreams
-- 5+ member onshore/offshore team
-- 20+ discovery/design workshops
-- 10+ client SMEs at CT Global
-- 35% improved case resolution
-- 40% improved onboarding efficiency
-- Up to 40% process improvement
-- 200+ hours annual productivity savings
-- Approximately £900k+ HRSD/CSM bid win supported
-- ServiceNow HRSD / Employee Center / EmployeeWorks / Employee Slate / ITSM / CSM
-- Workday integration dependencies
-- ServiceNow Agentic AI Executive Certification
+The dashboard material is highly relevant for Senior Business Analyst, HR Transformation, Product Owner, ServiceNow functional and transformation consulting roles because it shows how delivery information becomes executive decision support.
 
-## Published as concepts, not delivered production outcomes
-- Rewards Virtual Agent
-- Global Mobility Virtual Agent
-- Payroll Virtual Agent
-- Case Summarisation
-- Agentic Task Completion / Moveworks-style next phase
-
-These pages deliberately use language such as “concept”, “design approach”, and “how I would structure it”. Do not change them to “I delivered” unless you can evidence an actual production implementation and verified outcome metrics.
+## Items to keep defensible
+- The KYC/onboarding dashboard wording uses the user-supplied 8 to 5 handoff reduction and approximately 20% cycle-time improvement. Keep these public only if you are comfortable evidencing them in interview.
+- The AI agent pages remain labelled as capability concepts where production results are not verified.
+- The project health dashboard is framed around delivery visibility, RAID, defect ageing, backlog health and go-live readiness, which strengthens the techno-functional and implementation-lead positioning.

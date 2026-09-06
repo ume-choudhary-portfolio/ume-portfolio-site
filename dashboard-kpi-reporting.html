@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Power BI Credential Work | Ume Choudhary</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="powerbi-page">
+  <div class="mouse-glow" id="mouseGlow"></div>
+  <header>
+    <a class="brand" href="index.html">
+      <span class="brandmark">UC</span>
+      <span><b>Ume Choudhary</b><small>People Operations · HR Transformation</small></span>
+    </a>
+    <button class="menubtn" id="menuBtn">Menu</button>
+    <nav id="nav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#dashboards">Dashboards</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#live-demos">Demos</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="Ume_Choudhary_Resume.pdf" target="_blank" class="navcv">View CV ↗</a>
+    </nav>
+  </header>
+
+  <main class="powerbi-main">
+    <section class="credential-shell reveal">
+      <div class="credential-header">
+        <p class="credential-eyebrow">Power BI · Credential Work</p>
+        <h1>Power BI, put to work</h1>
+        <p class="credential-intro">
+          Two dashboards from the Coursera BI specialisation, built on public datasets rather than client work, but strong proof that I can model, measure and lay out a report in Power BI rather than just name it on a skills list.
+        </p>
+      </div>
+
+      <div class="credential-grid">
+        <article class="credential-card reveal">
+          <div class="credential-visual-wrap">
+            <div class="credential-visual">
+              <img id="powerbiFinanceImage" src="assets/powerbi-financial-dashboard.png" alt="Financial statements dashboard in Power BI">
+            </div>
+            <div class="credential-tabs">
+              <button class="active" data-powerbi-tab="income">Income statement</button>
+              <button data-powerbi-tab="balance">Balance sheet</button>
+            </div>
+          </div>
+          <div class="credential-copy">
+            <div class="credential-meta-row">
+              <h2 id="powerbiFinanceTitle">Financial Statements in Power BI</h2>
+              <span class="credential-badge">Capstone</span>
+            </div>
+            <p id="powerbiFinanceText">
+              A general-ledger model turned into a working <b>Income Statement</b> and <b>Balance Sheet</b>. Built on a star schema, a <code>FactGLTran</code> fact against date, GL-account and header dimensions, with finance DAX measures for current ratio, debt ratio, gross and operating margin, and a sign-flip pattern so contra accounts read correctly. A waterfall walks revenue down to net income.
+            </p>
+            <div class="credential-tags">
+              <span>Power BI</span>
+              <span>DAX</span>
+              <span>Star schema</span>
+              <span>Waterfall</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="credential-card reveal">
+          <div class="credential-visual-wrap">
+            <div class="credential-visual single-view">
+              <img src="assets/powerbi-hr-analytics-dashboard.png" alt="HR analytics attrition dashboard in Power BI">
+            </div>
+            <div class="credential-view-label">Single view</div>
+          </div>
+          <div class="credential-copy">
+            <div class="credential-meta-row">
+              <h2>HR Analytics · attrition</h2>
+              <span class="credential-badge light">Practice</span>
+            </div>
+            <p>
+              A workforce-attrition dashboard on the well-known IBM HR dataset, with KPI cards for headcount, attrition rate, average income, age and tenure, then attrition broken down by department, job role, age band and education, with a department slicer to filter the whole page. The classic first BI build, done cleanly across fifteen coordinated visuals.
+            </p>
+            <div class="credential-tags">
+              <span>Power BI</span>
+              <span>KPI cards</span>
+              <span>Slicers</span>
+              <span>Segmentation</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="credential-footer-note reveal">
+        <p>These sit behind the BI certificate. The original, operator-built transformation systems are the case studies and dashboard examples across the main portfolio.</p>
+        <div class="actions">
+          <a class="btn primary" href="index.html#dashboards">Back to portfolio →</a>
+          <a class="btn" href="index.html#contact">Contact Ume →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <div class="brand">
+      <span class="brandmark">UC</span>
+      <span><b>Ume Choudhary</b><small>People Operations · HR Transformation · London, UK</small></span>
+    </div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="global-hr-transformation.html">Case studies</a>
+      <a href="interactive-demos.html">Demos</a>
+      <a href="dashboard-kpi-reporting.html">Dashboard work</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
