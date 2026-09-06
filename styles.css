@@ -75,3 +75,60 @@ img{object-fit:contain!important;object-position:center center!important}
 .page-hero img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;padding:12px!important;background:#071629!important}
 @media(max-width:1180px){.hero-card .frame img{max-width:100%!important}.demo-card img{width:100%!important}}
 @media(max-width:560px){.demo-card img{height:auto!important;max-height:none!important;margin-top:14px!important}.contact img,.page-hero img{height:auto!important;max-height:none!important}}
+
+
+/* v5: image-free portfolio layout */
+.hero{grid-template-columns:1fr 1fr;align-items:stretch}
+.capability-hero{display:flex;flex-direction:column;justify-content:center;min-height:470px;padding:28px!important;overflow:hidden!important;background:radial-gradient(circle at 78% 15%,rgba(75,126,255,.18),transparent 27%),linear-gradient(145deg,#0b2240,#08172b)!important}
+.capability-head h2{font-size:34px;line-height:1.08;letter-spacing:-.035em;margin:6px 0 10px}
+.capability-head>p:last-child{color:#b7c8d9;font-size:13px;line-height:1.65;max-width:600px}
+.capability-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+.capability-grid article{padding:16px;border:1px solid #2d4b64;border-radius:15px;background:linear-gradient(180deg,rgba(12,38,64,.9),rgba(7,24,42,.95));min-height:135px;transition:.2s}
+.capability-grid article:hover{transform:translateY(-3px);border-color:#58cfc8;box-shadow:0 16px 34px rgba(0,0,0,.22)}
+.capability-grid article>span{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#8355ff,#22c9d1);font-size:10px;font-weight:900;margin-bottom:11px}
+.capability-grid b{display:block;font-size:15px;margin-bottom:6px}
+.capability-grid small{display:block;color:#aebfd1;font-size:11px;line-height:1.55}
+.hero-note{margin-top:18px}
+
+.demo-card{min-height:275px!important;padding:24px!important;display:flex;flex-direction:column}
+.demo-card .btn{margin-top:auto;align-self:flex-start}
+.demo-card:before{content:"";position:absolute;inset:auto -55px -75px auto;width:190px;height:190px;border-radius:50%;filter:blur(45px);opacity:.14;background:linear-gradient(135deg,#9b5cff,#24d8ce)}
+.demo-card h3{max-width:90%}
+
+.contact{grid-template-columns:1.15fr .85fr!important;align-items:stretch}
+.contact-side-panel{padding:22px;border:1px solid #2c4961;border-radius:18px;background:linear-gradient(145deg,#0b223b,#07182b);display:flex;flex-direction:column;justify-content:center}
+.contact-side-panel h3{font-size:26px;line-height:1.1;margin:4px 0 14px}
+.contact-side-list{display:grid;gap:8px}
+.contact-side-list span{display:flex;justify-content:space-between;gap:18px;padding:10px 0;border-bottom:1px solid rgba(102,142,178,.18);font-size:12px;color:#b8c8d8}
+.contact-side-list span:last-child{border-bottom:0}
+.contact-side-list b{color:#fff}
+
+.page-hero{grid-template-columns:1fr!important;max-width:980px;margin-left:auto;margin-right:auto}
+.page-hero>div{max-width:980px}
+.detail-grid{align-items:stretch}
+
+.global-programme-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}
+.global-programme-summary>div{padding:16px;border:1px solid #2c4961;border-radius:14px;background:linear-gradient(180deg,#0a2037,#07182b);text-align:center}
+.global-programme-summary b{display:block;font-size:30px;color:#4fe0d5;line-height:1}
+.global-programme-summary span{font-size:10px;color:#b8c8d8}
+
+/* Power BI credential cards are intentionally CSS-only, with no screenshots. */
+.credential-visual-wrap{display:none!important}
+.credential-card{min-height:auto!important}
+.powerbi-dark-card{overflow:hidden}
+
+/* Enforce that no content image can display if one is accidentally reintroduced. */
+main img{display:none!important}
+
+@media(max-width:1180px){
+  .hero{grid-template-columns:1fr}
+  .capability-hero{min-height:auto}
+  .contact{grid-template-columns:1fr!important}
+}
+@media(max-width:820px){
+  .capability-grid{grid-template-columns:1fr 1fr}
+  .global-programme-summary{grid-template-columns:1fr 1fr}
+}
+@media(max-width:560px){
+  .capability-grid,.global-programme-summary{grid-template-columns:1fr}
+}

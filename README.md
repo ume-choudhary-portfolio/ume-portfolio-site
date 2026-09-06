@@ -1,13 +1,14 @@
-# Ume Choudhary Portfolio — Image Safe v4
+# Ume Choudhary Portfolio - Image Free v5
 
-This version includes a full image audit.
+This version intentionally removes all visible images from the portfolio.
 
-## Fixes
-- Replaced the hero visual with a complete crop that shows all labels: HR Transformation, AI for People Operations, Global Transformation, ServiceNow HRSD, Data & Insights and Employee Experience.
-- Replaced the Employee Case Management, AI Employee Self-Service and Global HR Transformation preview images with complete card crops.
-- Removed CSS image cropping across the homepage, demo cards, detail-page heroes and contact section.
-- Every content image now uses `object-fit: contain` and auto height, so wording inside an image is not clipped by the website layout.
-- Dashboard/Power BI pages remain image-independent where possible, reducing broken-image risk.
+Changes:
+- No hero image
+- No case study card images
+- No AI concept images
+- No contact image
+- No images on detail pages or the interactive demo lab
+- Text, CSS panels, metrics and interactive components replace image content
+- Favicon is retained only as the browser tab icon
 
-## Upload
-Upload every file and the complete `assets` folder to the root of the GitHub repository, replace existing files, commit, then wait for Vercel to show Ready. Hard-refresh with Ctrl+F5.
+Upload all files in this folder to the root of the GitHub repository and replace the existing versions.
