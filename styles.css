@@ -64,3 +64,14 @@ body.powerbi-page footer div:last-child{color:#40546b}
   .credential-badge{display:inline-block;margin-top:10px}
   .credential-tabs{flex-wrap:wrap;padding-top:16px}
 }
+
+/* v4 image-safety pass: never crop visual assets or embedded wording */
+img{object-fit:contain!important;object-position:center center!important}
+.hero-card .frame{min-height:0!important;height:auto!important;padding:12px!important;overflow:visible!important;aspect-ratio:auto!important}
+.hero-card .frame img{width:100%!important;height:auto!important;max-height:none!important;display:block!important;border-radius:16px!important}
+.demo-card{min-height:0!important;padding:20px!important;overflow:visible!important}
+.demo-card img{position:static!important;display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;margin:18px 0 0!important;padding:8px!important;border:1px solid rgba(100,142,186,.28)!important;border-radius:14px!important;background:#061525!important;opacity:1!important}
+.contact img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;padding:10px!important;background:#07182a!important}
+.page-hero img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;padding:12px!important;background:#071629!important}
+@media(max-width:1180px){.hero-card .frame img{max-width:100%!important}.demo-card img{width:100%!important}}
+@media(max-width:560px){.demo-card img{height:auto!important;max-height:none!important;margin-top:14px!important}.contact img,.page-hero img{height:auto!important;max-height:none!important}}
