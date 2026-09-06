@@ -1,105 +1,88 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>Dashboard &amp; KPI Reporting | Ume Choudhary</title>
-<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
-<link href="styles.css" rel="stylesheet"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard & KPI Reporting | Ume Choudhary</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="mouse-glow" id="mouseGlow"></div>
 <header>
 <a class="brand" href="index.html"><span class="brandmark">UC</span><span><b>Ume Choudhary</b><small>People Operations · HR Transformation</small></span></a>
 <button class="menubtn" id="menuBtn">Menu</button>
-<nav id="nav">
-<a href="index.html#about">About</a>
-<a href="index.html#skills">Skills</a>
-<a href="index.html#dashboards">Dashboards</a>
-<a href="index.html#experience">Experience</a>
-<a href="interactive-demos.html">Demos</a>
-<a href="index.html#contact">Contact</a>
-<a class="navcv" href="Ume_Choudhary_Resume.pdf" target="_blank">View CV ↗</a>
-</nav>
+<nav id="nav"><a href="index.html#about">About</a><a href="index.html#skills">Skills</a><a href="index.html#dashboards">Dashboards</a><a href="index.html#experience">Experience</a><a href="interactive-demos.html">Demos</a><a href="index.html#contact">Contact</a><a class="navcv" href="Ume_Choudhary_Resume.pdf" target="_blank">View CV ↗</a></nav>
 </header>
 <main>
 <section class="dashboard-page-hero shell reveal">
-<span class="status-chip">Dashboard &amp; KPI reporting</span>
+<span class="status-chip">Dashboard & KPI reporting</span>
 <h1>Five reporting views that turn delivery data into <span class="gradient">decisions.</span></h1>
-<p>I use dashboards to make project health, process performance, adoption, risk and Agile delivery visible. The objective is not reporting for reporting's sake. It is to give Product Owners, programme leads and senior stakeholders a clear view of what needs attention, what is improving and what decision is required next.</p>
-<div class="dashboard-hero-pills"><span>Project health</span><span>Process KPI</span><span>Adoption</span><span>RAID</span><span>Sprint &amp; backlog</span></div>
+<p>Each dashboard is presented as a concise decision tool: what it shows, who uses it, and the signal it is designed to surface.</p>
+<div class="dashboard-hero-pills"><span>Project health</span><span>Process KPI</span><span>Adoption</span><span>RAID</span><span>Sprint & backlog</span></div>
 </section>
+
 <section class="section shell">
-<div class="dashboard-examples-grid">
-<article class="dashboard-story reveal" id="project-health">
-<div class="dashboard-story-head"><span class="dashboard-number">01</span><div><p class="kicker">PROJECT &amp; DELIVERY HEALTH</p><h2>Project &amp; Delivery Health Dashboard</h2></div></div>
-<p class="dashboard-story-intro">A leadership view designed to show whether delivery is genuinely healthy before a steering committee meeting rather than relying on a manual status deck.</p>
-<div class="dashboard-story-body">
-<div><h3>What it tracks</h3><ul><li>Sprint velocity and throughput trends</li><li>Backlog burn down and epic progress</li><li>Defect ageing and unresolved release blockers</li><li>RAID status, dependencies and go live readiness</li></ul></div>
-<div><h3>How it is used</h3><ul><li>Flags workstreams drifting off plan</li><li>Highlights risks that require leadership decisions</li><li>Creates one common view before governance forums</li><li>Reduces time spent manually reconciling project health</li></ul></div>
-</div>
-<div class="dashboard-kpi-row"><span><b>Velocity</b> delivery trend</span><span><b>Defect ageing</b> release risk</span><span><b>Readiness</b> go live view</span></div>
+<div class="dashboard-card-grid">
+
+<article class="dashboard-compact-card reveal" id="project-health">
+<div class="dashboard-card-top"><span class="dashboard-index">01</span><span class="dashboard-icon">📈</span></div>
+<p class="kicker">PROJECT & DELIVERY HEALTH</p>
+<h2>Project & Delivery Health Dashboard</h2>
+<p class="dashboard-one-liner">A leadership view that makes project health visible before steering committee meetings.</p>
+<div class="dashboard-mini-metrics"><span><b>Velocity</b> Trend</span><span><b>Defects</b> Ageing</span><span><b>Readiness</b> Go live</span></div>
+<div class="dashboard-two-col"><div><h3>Tracks</h3><ul><li>Sprint velocity & throughput</li><li>Backlog burn down & epic progress</li><li>Defect ageing & blockers</li><li>RAID, dependencies & readiness</li></ul></div><div><h3>Used for</h3><ul><li>Flagging workstreams off plan</li><li>Leadership decision points</li><li>Steering committee preparation</li><li>One consistent health view</li></ul></div></div>
 </article>
-<article class="dashboard-story reveal">
-<div class="dashboard-story-head"><span class="dashboard-number">02</span><div><p class="kicker">PROCESS TRANSFORMATION KPI</p><h2>KYC &amp; Onboarding KPI Dashboard</h2></div></div>
-<p class="dashboard-story-intro">A process-performance view that makes the impact of journey redesign visible from identity verification through screening and EDD.</p>
-<div class="dashboard-story-body">
-<div><h3>What it tracks</h3><ul><li>Case volume by onboarding stage</li><li>Average handling and cycle time</li><li>Stage by stage drop off and bottlenecks</li><li>Handoffs across verification, screening and EDD</li></ul></div>
-<div><h3>Why it matters</h3><ul><li>Makes the 8 to 5 handoff redesign visible</li><li>Shows approximately 20% cycle time improvement</li><li>Helps teams identify where work queues build up</li><li>Gives stakeholders a common baseline for improvement</li></ul></div>
-</div>
-<div class="dashboard-kpi-row"><span><b>8 → 5</b> handoffs</span><span><b>~20%</b> cycle time</span><span><b>Stage view</b> bottlenecks</span></div>
+
+<article class="dashboard-compact-card reveal">
+<div class="dashboard-card-top"><span class="dashboard-index">02</span><span class="dashboard-icon">🧭</span></div>
+<p class="kicker">PROCESS TRANSFORMATION KPI</p>
+<h2>KYC & Onboarding KPI Dashboard</h2>
+<p class="dashboard-one-liner">A process-performance view across identity verification, screening and EDD.</p>
+<div class="dashboard-mini-metrics"><span><b>8 → 5</b> Handoffs</span><span><b>~20%</b> Cycle time</span><span><b>Stage</b> Bottlenecks</span></div>
+<div class="dashboard-two-col"><div><h3>Tracks</h3><ul><li>Case volume by stage</li><li>Average handling & cycle time</li><li>Stage drop-off</li><li>Verification to EDD handoffs</li></ul></div><div><h3>Used for</h3><ul><li>Showing journey redesign impact</li><li>Locating queue build-up</li><li>Validating process changes</li><li>Stakeholder KPI reviews</li></ul></div></div>
 </article>
-<article class="dashboard-story reveal">
-<div class="dashboard-story-head"><span class="dashboard-number">03</span><div><p class="kicker">ADOPTION &amp; USAGE</p><h2>Tool Adoption &amp; Usage Dashboard</h2></div></div>
-<p class="dashboard-story-intro">A view built to answer a simple question after rollout: are people actually using the tool in the way the transformation expected?</p>
-<div class="dashboard-story-body">
-<div><h3>What it tracks</h3><ul><li>Active user rates</li><li>Ticket or story throughput</li><li>Training completion</li><li>Usage by team, workstream or module</li></ul></div>
-<div><h3>How it supports adoption</h3><ul><li>Identifies teams where adoption is lagging</li><li>Targets follow up enablement sessions</li><li>Separates training completion from real usage</li><li>Provides evidence for post go live support decisions</li></ul></div>
-</div>
-<div class="dashboard-kpi-row"><span><b>Users</b> active rate</span><span><b>Training</b> completion</span><span><b>Throughput</b> real usage</span></div>
+
+<article class="dashboard-compact-card reveal">
+<div class="dashboard-card-top"><span class="dashboard-index">03</span><span class="dashboard-icon">👥</span></div>
+<p class="kicker">ADOPTION & USAGE</p>
+<h2>Tool Adoption & Usage Dashboard</h2>
+<p class="dashboard-one-liner">A post-rollout view that distinguishes training completion from real usage.</p>
+<div class="dashboard-mini-metrics"><span><b>Users</b> Active</span><span><b>Training</b> Complete</span><span><b>Flow</b> Throughput</span></div>
+<div class="dashboard-two-col"><div><h3>Tracks</h3><ul><li>Active-user rates</li><li>Ticket or story throughput</li><li>Training completion</li><li>Usage by team or module</li></ul></div><div><h3>Used for</h3><ul><li>Finding adoption gaps</li><li>Targeting enablement sessions</li><li>Post go-live support planning</li><li>Usage-based change decisions</li></ul></div></div>
 </article>
-<article class="dashboard-story reveal">
-<div class="dashboard-story-head"><span class="dashboard-number">04</span><div><p class="kicker">RAID &amp; RISK HEALTH</p><h2>RAID &amp; Risk Health Dashboard</h2></div></div>
-<p class="dashboard-story-intro">A live governance view that turns risks, actions, issues and dependencies into a decision ready heat map rather than a static spreadsheet.</p>
-<div class="dashboard-story-body">
-<div><h3>What it tracks</h3><ul><li>Open risks and current severity</li><li>Issues requiring escalation</li><li>Cross team dependencies and owners</li><li>Actions, due dates and overdue items</li></ul></div>
-<div><h3>How it is used</h3><ul><li>Creates visibility before governance meetings</li><li>Connects Confluence reporting with live Jira items</li><li>Shows ownership and ageing clearly</li><li>Reduces manual leadership status preparation</li></ul></div>
-</div>
-<div class="risk-legend"><span class="risk green">On track</span><span class="risk amber">Watch</span><span class="risk red">At risk</span><span class="risk purple">Dependency</span></div>
+
+<article class="dashboard-compact-card reveal">
+<div class="dashboard-card-top"><span class="dashboard-index">04</span><span class="dashboard-icon">⚠</span></div>
+<p class="kicker">RAID & RISK HEALTH</p>
+<h2>RAID & Risk Health Dashboard</h2>
+<p class="dashboard-one-liner">A governance view that turns risks, actions, issues and dependencies into decision-ready signals.</p>
+<div class="dashboard-mini-metrics risk-pills"><span class="g"><b>On track</b></span><span class="a"><b>Watch</b></span><span class="r"><b>At risk</b></span></div>
+<div class="dashboard-two-col"><div><h3>Tracks</h3><ul><li>Risk severity & ageing</li><li>Escalated issues</li><li>Dependency owners</li><li>Actions & due dates</li></ul></div><div><h3>Used for</h3><ul><li>Governance visibility</li><li>Escalation decisions</li><li>Jira / Confluence linkage</li><li>Reducing manual status decks</li></ul></div></div>
 </article>
-<article class="dashboard-story reveal dashboard-story-wide">
-<div class="dashboard-story-head"><span class="dashboard-number">05</span><div><p class="kicker">SPRINT &amp; BACKLOG HEALTH</p><h2>Sprint &amp; Backlog Health Dashboard</h2></div></div>
-<p class="dashboard-story-intro">A Jira based Agile delivery view that translates backlog mechanics into a language both technical and non technical stakeholders can use for decisions.</p>
-<div class="dashboard-story-body">
-<div><h3>What it tracks</h3><ul><li>Burndown and remaining scope</li><li>Sprint velocity</li><li>Cumulative flow and work in progress</li><li>Epic progress and cross team dependencies</li></ul></div>
-<div><h3>How it supports delivery</h3><ul><li>Used during sprint planning and reviews</li><li>Helps Product Owners challenge unrealistic commitments</li><li>Surfaces blockers and work ageing</li><li>Makes delivery health understandable outside the scrum team</li></ul></div>
-</div>
-<div aria-label="CSS sprint dashboard visual" class="agile-visual"><div style="--h:72%"></div><div style="--h:48%"></div><div style="--h:84%"></div><div style="--h:65%"></div><div style="--h:91%"></div><div style="--h:58%"></div></div>
+
+<article class="dashboard-compact-card reveal dashboard-wide-card">
+<div class="dashboard-card-top"><span class="dashboard-index">05</span><span class="dashboard-icon">🏃</span></div>
+<p class="kicker">SPRINT & BACKLOG HEALTH</p>
+<h2>Sprint & Backlog Health Dashboard</h2>
+<p class="dashboard-one-liner">A Jira delivery view translating Agile mechanics into a decision-ready view for technical and non-technical stakeholders.</p>
+<div class="dashboard-mini-metrics"><span><b>Burn</b> Down</span><span><b>Velocity</b> Sprint</span><span><b>Epic</b> Progress</span><span><b>Flow</b> WIP</span></div>
+<div class="dashboard-two-col"><div><h3>Tracks</h3><ul><li>Burndown & remaining scope</li><li>Sprint velocity</li><li>Cumulative flow & WIP</li><li>Epic progress & dependencies</li></ul></div><div><h3>Used for</h3><ul><li>Sprint planning & reviews</li><li>Commitment challenge</li><li>Blocker visibility</li><li>Cross-team delivery health</li></ul></div></div>
+<div class="agile-visual compact"><div style="--h:72%"></div><div style="--h:48%"></div><div style="--h:84%"></div><div style="--h:65%"></div><div style="--h:91%"></div><div style="--h:58%"></div></div>
 </article>
+
 </div>
 </section>
+
 <section class="section shell powerbi-dark-section" id="power-bi-work">
-<div class="section-head reveal"><div><p class="kicker">POWER BI · CREDENTIAL WORK</p><h2>Power BI, put to work.</h2><p class="sub">Two public dataset builds from BI credential work. They are not client dashboards. They show modelling, DAX, KPI design and report layout capability in a portfolio safe way.</p></div></div>
+<div class="section-head reveal"><div><p class="kicker">POWER BI · CREDENTIAL WORK</p><h2>Power BI, put to work.</h2><p class="sub">Two public-dataset builds showing modelling, DAX, KPI design and report layout capability. No client data and no image dependency.</p></div></div>
 <div class="powerbi-dark-grid">
-<article class="powerbi-dark-card reveal">
-<div class="powerbi-mock financial" id="financialMock">
-<div class="mock-topbar"><b>Income Statement</b><span>GL model · 2019 to 2021</span></div>
-<div class="mock-kpis"><span><b>0.21</b>Gross margin</span><span><b>0.05</b>Operating margin</span><span><b>6/1/2021</b>Last refresh</span></div>
-<div class="mock-body"><div class="mock-table"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="mock-chart"><i style="--v:48%"></i><i style="--v:61%"></i><i style="--v:72%"></i><i style="--v:58%"></i><i style="--v:78%"></i><i style="--v:67%"></i><i style="--v:88%"></i></div></div>
+<article class="powerbi-dark-card reveal"><div class="powerbi-mock financial" id="financialMock"><div class="mock-topbar"><b>Income Statement</b><span>GL model · 2019 to 2021</span></div><div class="mock-kpis"><span><b>0.21</b>Gross margin</span><span><b>0.05</b>Operating margin</span><span><b>6/1/2021</b>Last refresh</span></div><div class="mock-body"><div class="mock-table"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="mock-chart"><i style="--v:48%"></i><i style="--v:61%"></i><i style="--v:72%"></i><i style="--v:58%"></i><i style="--v:78%"></i><i style="--v:67%"></i><i style="--v:88%"></i></div></div></div><div class="powerbi-tab-row"><button class="active" data-powerbi-dark="income">Income statement</button><button data-powerbi-dark="balance">Balance sheet</button></div><div class="powerbi-card-copy"><div class="powerbi-copy-head"><h3 id="powerbiDarkTitle">Financial Statements in Power BI</h3><span>Capstone</span></div><p id="powerbiDarkText">A general-ledger model turned into a working income statement and balance sheet, using a star schema and finance DAX measures.</p><div class="credential-tags dark"><span>Power BI</span><span>DAX</span><span>Star schema</span><span>Waterfall</span></div></div></article>
+<article class="powerbi-dark-card reveal"><div class="powerbi-mock hr"><div class="hr-title">HR ANALYTICS DASHBOARD</div><div class="hr-kpis"><span><b>1470</b>Employees</span><span><b>237</b>Attrition</span><span><b>16.1%</b>Rate</span><span><b>37</b>Avg age</span></div><div class="hr-charts"><div class="donut"></div><div class="hr-bars"><i style="--w:90%"></i><i style="--w:63%"></i><i style="--w:42%"></i><i style="--w:28%"></i></div><div class="hr-line"></div></div></div><div class="powerbi-view-label">Single view</div><div class="powerbi-card-copy"><div class="powerbi-copy-head"><h3>HR Analytics · attrition</h3><span>Practice</span></div><p>A workforce attrition dashboard using KPI cards, slicers and segmented views to make HR patterns easy to interpret.</p><div class="credential-tags dark"><span>Power BI</span><span>KPI cards</span><span>Slicers</span><span>Segmentation</span></div></div></article>
 </div>
-<div class="powerbi-tab-row"><button class="active" data-powerbi-dark="income">Income statement</button><button data-powerbi-dark="balance">Balance sheet</button></div>
-<div class="powerbi-card-copy"><div class="powerbi-copy-head"><h3 id="powerbiDarkTitle">Financial Statements in Power BI</h3><span>Capstone</span></div><p id="powerbiDarkText">A general ledger model turned into a working income statement and balance sheet. Built on a star schema with finance DAX measures for current ratio, debt ratio, gross and operating margin, plus a waterfall from revenue to net income.</p><div class="credential-tags dark"><span>Power BI</span><span>DAX</span><span>Star schema</span><span>Waterfall</span></div></div>
-</article>
-<article class="powerbi-dark-card reveal">
-<div class="powerbi-mock hr"><div class="hr-title">HR ANALYTICS DASHBOARD</div><div class="hr-kpis"><span><b>1470</b>Employees</span><span><b>237</b>Attrition</span><span><b>16.1%</b>Rate</span><span><b>37</b>Avg age</span></div><div class="hr-charts"><div class="donut"></div><div class="hr-bars"><i style="--w:90%"></i><i style="--w:63%"></i><i style="--w:42%"></i><i style="--w:28%"></i></div><div class="hr-line"></div></div></div>
-<div class="powerbi-view-label">Single view</div>
-<div class="powerbi-card-copy"><div class="powerbi-copy-head"><h3>HR Analytics · attrition</h3><span>Practice</span></div><p>A workforce attrition dashboard on the IBM HR dataset with KPI cards for headcount, attrition, income, age and tenure, plus breakdowns by department, job role, age band and education with slicer driven filtering.</p><div class="credential-tags dark"><span>Power BI</span><span>KPI cards</span><span>Slicers</span><span>Segmentation</span></div></div>
-</article>
-</div>
-<p class="powerbi-note reveal">Credential work is clearly separated from delivered transformation case studies so the portfolio stays credible and interview safe.</p>
 </section>
-<section class="section shell"><div class="detail-card reveal"><p class="kicker">JIRA &amp; CONFLUENCE DELIVERY PRACTICE</p><h2>Tools used as part of the operating model, not just task tracking.</h2><div class="detail-grid"><div><h3>Jira</h3><ul><li>Backlog management and epic or story breakdown</li><li>Sprint board and workflow status configuration</li><li>Burndown, velocity, cumulative flow and epic progress dashboards</li><li>Cross team dependency tracking</li></ul></div><div><h3>Confluence</h3><ul><li>Process documentation and workshop asset libraries</li><li>Decision logs and RAID logs</li><li>Stakeholder facing knowledge bases</li><li>Templated reporting pages linked to live Jira data</li></ul></div></div></div></section>
+
+<section class="section shell"><div class="detail-card reveal"><p class="kicker">JIRA & CONFLUENCE DELIVERY PRACTICE</p><h2>Tools used as part of the operating model, not just task tracking.</h2><div class="detail-grid"><div><h3>Jira</h3><ul><li>Backlog management and epic or story breakdown</li><li>Sprint board and workflow status configuration</li><li>Burndown, velocity, cumulative flow and epic progress dashboards</li><li>Cross-team dependency tracking</li></ul></div><div><h3>Confluence</h3><ul><li>Process documentation and workshop asset libraries</li><li>Decision logs and RAID logs</li><li>Stakeholder-facing knowledge bases</li><li>Templated reporting pages linked to live Jira data</li></ul></div></div></div></section>
 </main>
 <footer class="shell"><div class="brand"><span class="brandmark">UC</span><span><b>Ume Choudhary</b><small>People Operations · HR Transformation · London, UK</small></span></div><div><a href="index.html">Home</a><a href="index.html#experience">Experience</a><a href="interactive-demos.html">Demos</a><a href="index.html#contact">Contact</a></div></footer>
 <script src="script.js"></script>

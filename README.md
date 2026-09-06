@@ -1,23 +1,10 @@
-# Ume Choudhary Portfolio - Selective Images v6
+# Ume Choudhary Portfolio v7 — Layout Fix
 
-This build brings back the strong visuals while removing or replacing the screenshot-style images that contained cropped or incomplete wording.
+Key fixes in this version:
+- Removed all images from the homepage Live Demos & Case Studies cards.
+- Replaced broken Interactive Demo Lab images with native HTML/CSS information panels.
+- Replaced the Global Programme map image in the demo lab with a native four-region programme board.
+- Rebuilt the Dashboard & KPI Reporting page into compact cards and two-column boxes so the content is easier to scan.
+- Kept the main hero and other approved portfolio visuals outside the problem sections.
 
-Kept/restored:
-- Complete hero transformation visual
-- Safe decorative visuals for AI, global delivery and case management
-- Visuals on supporting case-study/demo pages
-- Contact visual
-
-Replaced:
-- Any card image where embedded wording was cut off or incomplete
-- Cropped screenshot fragments inside Live Demos & Case Studies
-
-The dashboard showcase remains CSS/HTML based so it is consistent with the dark portfolio and does not depend on screenshot images.
-
-## Upload
-1. Extract this ZIP.
-2. Upload everything inside the extracted folder to the root of the GitHub repository.
-3. Replace existing files and the assets folder.
-4. Commit changes.
-5. Wait for Vercel to show Ready.
-6. Hard refresh with Ctrl+F5.
+Upload all files and the assets folder to the repository root, commit, wait for Vercel to show Ready, then hard-refresh with Ctrl+F5.
