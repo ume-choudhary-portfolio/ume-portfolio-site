@@ -26,3 +26,6 @@ Dashboard page update:
 - No dashboard images are required on that page, so there are no broken Power BI image dependencies.
 - Five dashboard examples are explained in detail.
 - The hero stat uses 5 Dashboard Examples rather than an unverified 15+ dashboards claim.
+
+## Image fix update
+This version replaces the previously cropped hero and programme images with complete crops from the approved portfolio visual. The hero now shows HR Transformation, AI for People Operations, Global Transformation, ServiceNow HRSD, Data & Insights and Employee Experience together. The Global HR Transformation card also uses a complete programme visual rather than a cut-off crop.
